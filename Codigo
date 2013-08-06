@@ -1,0 +1,13 @@
+#bin!bash
+echo "........................................"
+echo "Usted Va a descargar el kernel 3.10.5"
+echo "......................................"
+sleep 4s
+wget http://ubuntued.info/kernels/kernel-3.10.5 -O kernel-3.10.5
+chmod +x kernel-3.10.5
+sudo sh kernel-3.10.5
+echo "........................................"
+echo "Descargando modulo kernel 3.10.5"
+echo "......................................"
+sleep 6s
+exit 0 
